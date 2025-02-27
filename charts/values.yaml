@@ -11,6 +11,8 @@ image:
 service:
   type: ClusterIP
   port: 8080
+  elb_type: external
+  elb_int_ext: internet-facing
 
 # Configurazione del Deployment
 deployment:
