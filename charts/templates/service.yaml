@@ -9,7 +9,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-scheme: {{ .Values.service.elb_int_ext }}
 spec:
   ports:
-    - port: 8080
+    - port: 80
       targetPort: 8080
       protocol: TCP
   selector:
