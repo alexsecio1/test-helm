@@ -10,7 +10,7 @@ image:
 # Configurazione del servizio
 service:
   type: ClusterIP
-  port: 8080
+  port: 80
   elb_type: external
   elb_int_ext: internet-facing
 
