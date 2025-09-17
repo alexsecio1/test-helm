@@ -25,7 +25,7 @@ deployment:
 # Configurazione dei volumi persistenti (PVC)
 pvc:
   enabled: true
-  storageClass: "gp2"  # Il nome della StorageClass, se diversa dalla predefinita
+  storageClass: "ebs-csi-encrypted-gp3"  # Il nome della StorageClass, se diversa dalla predefinita
   accessMode: ReadWriteOnce
   size: 10Gi
 # Configurazione dell'utente Jenkins
